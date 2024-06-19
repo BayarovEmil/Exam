@@ -1,0 +1,8 @@
+Override nedir?
+
+Override uzerine yazmaq menasindadir miraslamanin neticesidir.
+Mirasalmaya numune olaraq ata ve ogulu gostermek olar ata parent class-dir ogul child class
+Ogul genlerini atas;ndan aldigi ucun atasina xas xususiyyetleri olacaq ustelik mulkiyyeti atasindan miras alacaq
+Ogul mulkiyyeti oldugu kimide saxliya biler yenilikde qata biler bu yenilik elemsi override adlanir
+Yeni child class Base(parent) class-dan aldigi xususiyyetleri deyisdire biler ve oldugu kimide islede biler
+

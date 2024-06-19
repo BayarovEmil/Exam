@@ -1,0 +1,12 @@
+21. OOP-də mirasalma nədir və necə istifadə olunur? Valideyn (parent) sinfi və onu
+genişləndirən (miras alan) uşaq (child) sinfi ilə bağlı bir nümunə ilə izah edin.
+
+numunede CustomerManager CustomerService-den implement edilib ve ona mesus olan buySomeProduct() metodunu alir
+CustomerService ise UserService-den extend olunub ve ona aid login() metodunu alib ozu interface oldugu ucun CustomerManager-
+e oturub
+Mirasalma adeten ust classdaki methodlari altClass-da override etmeyi mecburi hala geirmek ucun istifade olunur.
+Eger bu adi class-dirsa ust class-daki method ozune mexsus sayilacaq isteye bagli olaraq override edilbiler
+Eger abstract class veya interface olarsa methodun sadece imzasi qaldigi ucun onu override etmek mecburi hala gelecek
+
+Elave olaraq mirasalma polymorhism-in temeli oldugu ucun mirasalma ile biz class-larin reference-larini elimizde
+tutmus oluruq

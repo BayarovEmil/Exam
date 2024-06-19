@@ -1,0 +1,10 @@
+Overloading nedir?
+
+Asiri yuklenme menasini ifade edir.Normalda eyni ada malik methodlari eyni class-da 1den artiq islede bilmerik.(parametrleride eynidirse)
+Amma benzer ise malik olan methodlarin adlarida eyni olacagindan ferqli parametrlerle eyni adli
+methidlar istifade oluna biler
+Meselen Calculate class-miz var ve topla methodlarimiz olsun
+biz iki ededi toplamaq isteye bilerik 3ededi veya mueyyen etiyimiz bunlari elemek ucun topla1,topla2 seklinde yazmaq
+semeresiz usuldu ona gore topla(ferqli parametr){} seklinde overload edirik
+
+

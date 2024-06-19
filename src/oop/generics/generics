@@ -1,0 +1,17 @@
+Javada Generics anlayışını izah edin. Generics-in niyə faydalı olduğunu və “type safety”
+kod yaratmağa necə kömək etdiyini izah edin. Generics üçün nümunə verin.
+
+Java-da Generics, dəyişənlərin və obyektlərin tipini (type) bəlli etməyə
+və bu tipləri parametr olaraq qəbul etməyə imkan verən bir mexanizmdir.
+Bu, kod yazarkən tip təhlükəsizliyini (type safety) təmin etməklə yanaşı,
+kodun daha təmiz və təkrar istifadə oluna bilən (reusable) olmasına da kömək edir.
+
+Faydalari:
+1)Tip guvenliyi:
+2)Code reuseabilty(kodun tekrar istifadesi)
+
+
+Numunede Registration sesitemi verilir burada login ve register methodlari verilir bu class sadece bir tipde ola biler
+Bizim istediyimizde odurki yalniz User-classlari(child class-lari) Register olunsun Product class-i register ola bilmesin
+
+Bundan basqa List-i numune olaraq gostere bilerik

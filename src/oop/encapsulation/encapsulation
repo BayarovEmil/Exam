@@ -1,0 +1,8 @@
+Encapsulation- Entity class-larimizda olan variable-lerimiz misal ucun(name,surname,age) kimi
+melumatlari public ederek basqa class-lara aciq hala getirmek guvenli ve tercih edilen usul deyil
+Misal ucun String email deyisenimiz var ve user bura (@gmail.com) gondermir demeli sehvlik bas verir
+eger bu deyisen diger class-lar ucun elcatan olarsa bura istenilen tip String deyisen gonderile biler
+Encapsulation ile bu duruma nezaret edirik Deyisen private edilir belelikle basqa class-lar terinden gorunmur
+Bes nece isledeceyik -> private olan deyisenler sadece class-daxilinde elcatan olduqlarindan o class-a sinif daxilinde
+elde ede bilerik.Burada setter getter(Springde lombok annotasiyalari) ile variable-lar hem nezaret altina alinmis hemde
+diger class-lar ucun elcatan olmus olur.

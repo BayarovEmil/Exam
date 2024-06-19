@@ -1,0 +1,7 @@
+Abstract class-lar:
+
+Adi class-lar parent olsa bele childlara override mecburiyyeti vermir
+buda elverisli usul deyil cunki parent class-daki method child-lar deyisdirilmeli ola biler
+abstract class-lar interface-lerle oxsar olaraq method imzasi yazmaq olur ve belelikle parent class-lara override mecburiyyeti vermis oluruq
+abstract class-larda normal methodda yazila biler
+Template design pattern-tetbiq etmek ucun uygundur
