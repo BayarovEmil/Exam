@@ -1,0 +1,9 @@
+Chain of Responsibility- mehsuliyyet zinciri
+zincir uzerinde olan obyektler istek(request) aldiqda yerine yetire veya zincirdeki ozunden
+sonraki elemente oture bilerler.
+Misal ucun bank sistemini goturek burada goturule bilcek kredit meblegine gore deyisen
+mehsuliyyet var.Eger 100-den asagidirsa Officer-bu meblegi ver biler, yox eger 100-den boyuk
+500-den kicikdirse bu mehsuliyyet Manager-e oturulmelidir.500-den boyuk olarsa ise Executive-oturulucek.
+
+Basqa numune olaraq eger sistemimizde dogruluq nezaret bolmesi qoysaq ve yalniz qeydiyyatdan kecenler islem ede
+bilsin, yalniz admin icazesi olanlar full yetkili olsun kimi teleblerini yerine yetirmek istesekde bu pattern en uygundur.

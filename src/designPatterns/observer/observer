@@ -1,0 +1,9 @@
+Observer- izleyici
+Tutaqki bir youtube kanalini beyendik ve yeni videolardan xeberdar olmaq isteyirik
+bunun ucun tez tez kanala girib baxmaliyiqki yeni video varmi, bunu etmekdense abone olarsaq hemen kanal
+bize yeni video cixdiqda bildiris gonderecek
+Yadaki ECommerce application-miz var burada isteyirikki musteri mehsulu alan kimi saticya xeber gonderilsin
+veya mehsul anbardan cixsin birbasa bunu etmeyin en yaxsi usulu Observer design pattern-dir.
+
+Numunede Xeber kanallari var bu kanallar agentliye abone olurlar ve agentliye xeber geldkde avtomatik bu
+kanallara hemn xeberler gonderilir.
